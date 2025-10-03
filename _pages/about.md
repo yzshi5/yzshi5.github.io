@@ -24,10 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final-year PhD student in Mechanical Engineering at Caltech, with a minor in Applied and Computational Mathematics. I am advised by [Domniki Asimaki](https://www.eas.caltech.edu/people/domniki), and co-advised by [Zachary E. Ross](https://ross.caltech.edu/) and [Kamyar Azizzadenesheli](https://kamyar.page/).
 
-My research focuses on operator learning theory and applications, generative models in function space with a strong emphasis on flow matching, Bayesian methods and Gaussian processes, earthquake engineering with machine learning, and multimodal large language models for large-scale PDE solving.
+I am a final-year PhD candidate in Mechanical Engineering at Caltech, with a minor in Applied and Computational Mathematics. I have the privilege of being advised by [Domniki Asimaki](https://www.eas.caltech.edu/people/domniki), and co-advised by [Zachary E. Ross](https://ross.caltech.edu/) and [Kamyar Azizzadenesheli](https://kamyar.page/).
 
-My long-term goal is to develop AI systems that unify the understanding of the physical world with reasoning and adaptive response. This vision lies at the intersection of operator learning, generative AI, multimodal language models, and reinforcement learning, with the aim of bridging fundamental research and real-world deployment. Ultimately, I hope to contribute to building robust intelligent agents capable of operating in complex, dynamic environments.
+My research develops and applies novel machine learning techniques to solve complex scientific problems. I focus on operator learning theory, generative models in function spaces (particularly flow matching), and Bayesian methods. These approaches are applied to critical challenges in domains such as earthquake engineering and the use of multimodal large language models for large-scale PDE solving.
+
+Looking forward, my long-term goal is to build AI systems that unify a deep understanding of the physical world with sophisticated reasoning and adaptive response. This vision involves bridging fundamental research in areas like generative AI, multimodal LLM, operator learning and reinforcement learning with the practical deployment of robust, intelligent agents capable of operating in complex and dynamic environments.
+
 
 
