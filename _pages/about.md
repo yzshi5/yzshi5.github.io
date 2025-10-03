@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a final-year PhD student in Mechanical Engineering at Caltech, with a minor in Applied and Computational Mathematics. I am advised by [Domniki Asimaki](https://www.eas.caltech.edu/people/domniki), and co-advised by [Zachary E. Ross](https://ross.caltech.edu/) and [Kamyar Azizzadenesheli](https://kamyar.page/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on operator learning theory and applications, generative models in function space with a strong emphasis on flow matching, Bayesian methods and Gaussian processes, earthquake engineering with machine learning, and multimodal large language models for large-scale PDE solving.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My long-term goal is to develop AI systems that unify the understanding of the physical world with reasoning and adaptive response. This vision lies at the intersection of operator learning, generative AI, multimodal language models, and reinforcement learning, with the aim of bridging fundamental research and real-world deployment. Ultimately, I hope to contribute to building robust intelligent agents capable of operating in complex, dynamic environments.
+
+
