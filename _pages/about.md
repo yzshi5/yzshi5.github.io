@@ -21,15 +21,14 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts,, and ultimately contribute toward artificial superintelligence
 ---
 
 
 I am a final-year PhD candidate in Mechanical Engineering at Caltech, with a minor in Applied and Computational Mathematics. I have the privilege of being advised by [Domniki Asimaki](https://www.eas.caltech.edu/people/domniki), and co-advised by [Zachary E. Ross](https://ross.caltech.edu/) and [Kamyar Azizzadenesheli](https://kamyar.page/).
 
-My research develops and applies novel machine learning techniques to solve complex scientific problems. I focus on operator learning theory, generative models in function spaces (particularly flow matching), and Bayesian methods. These approaches are applied to critical challenges in domains such as earthquake engineering and the use of multimodal large language models for large-scale PDE solving.
+My research develops and applies novel machine-learning techniques to solve complex scientific problems. I focus on **operator learning** theory, **generative models** in function space (especially flow matching), **Bayesian methods**, and **multimodal large language models** for large-scale PDE solving. I apply these methods to critical challenges in earthquake engineering and related areas of scientific machine learning.
 
-Looking forward, my long-term goal is to build AI systems that unify a deep understanding of the physical world with sophisticated reasoning and adaptive response. This vision involves bridging fundamental research in areas like generative AI, multimodal LLM, computer vision, operator learning and reinforcement learning with the practical deployment of robust, intelligent agents capable of operating in complex and dynamic environments.
-
+My long-term goal is to build AI systems that unify deep understanding of the physical world with sophisticated reasoning and adaptive behavior—systems that enable fundamental scientific breakthroughs and power real-world applications. This vision bridges foundational research in operator learning, generative AI, multimodal LLMs, computer vision, and reinforcement learning, and translates it into the deployment of robust, intelligent agents capable of operating in complex, dynamic environments.
 
 
