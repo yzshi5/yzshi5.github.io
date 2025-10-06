@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yzshi5.github.io/sitemap.xml
