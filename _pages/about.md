@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 
-I am a final-year PhD candidate in Mechanical Engineering at Caltech, with a minor in Applied and Computational Mathematics. I have the privilege of being advised by [Domniki Asimaki](https://www.eas.caltech.edu/people/domniki), and co-advised by [Zachary E. Ross](https://ross.caltech.edu/) and [Kamyar Azizzadenesheli](https://kamyar.page/).
+This is a test, I am a final-year PhD candidate in Mechanical Engineering at Caltech, with a minor in Applied and Computational Mathematics. I have the privilege of being advised by [Domniki Asimaki](https://www.eas.caltech.edu/people/domniki), and co-advised by [Zachary E. Ross](https://ross.caltech.edu/) and [Kamyar Azizzadenesheli](https://kamyar.page/).
 
 My research develops and applies novel machine-learning techniques to solve complex scientific problems. I focus on **operator learning** theory, **generative models** in function space (especially flow matching), **Bayesian methods**, and **multimodal large language models** for large-scale PDE solving. I apply these methods to critical challenges in earthquake engineering and related areas of scientific machine learning.
 
