@@ -29,6 +29,6 @@ I am a final-year PhD candidate in Mechanical Engineering at Caltech, with a min
 
 My research develops and applies novel machine-learning techniques to solve complex scientific problems. I focus on **operator learning** theory, **generative models** in function space (especially flow matching), **Bayesian methods**, and **multimodal large language models** for large-scale PDE solving. I apply these methods to critical challenges in earthquake engineering and related areas of scientific machine learning.
 
-My long-term goal is to build AI systems that unify deep understanding of the physical world with sophisticated reasoning and adaptive behavior—systems that enable fundamental scientific breakthroughs and power real-world applications. This vision bridges foundational research in operator learning, generative AI, multimodal LLMs, computer vision, and reinforcement learning, and translates it into the deployment of robust, intelligent agents capable of operating in complex, dynamic environments.
+I want to make the test, My long-term goal is to build AI systems that unify deep understanding of the physical world with sophisticated reasoning and adaptive behavior—systems that enable fundamental scientific breakthroughs and power real-world applications. This vision bridges foundational research in operator learning, generative AI, multimodal LLMs, computer vision, and reinforcement learning, and translates it into the deployment of robust, intelligent agents capable of operating in complex, dynamic environments.
 
 
