@@ -1,0 +1,27 @@
+---
+import { news } from "../data/news";
+---
+
+<ol class="news-list">
+  {
+    news.map((item) => (
+      <li class="news-item">
+        <time datetime={item.isoDate}>[{item.date}]</time>
+        <div class="news-copy">
+          {item.link ? (
+            <a
+              class="text-link"
+              href={item.link}
+              target={item.link.startsWith("http") ? "_blank" : undefined}
+              rel={item.link.startsWith("http") ? "noreferrer" : undefined}
+            >
+              {item.text}
+            </a>
+          ) : (
+            <span>{item.text}</span>
+          )}
+        </div>
+      </li>
+    ))
+  }
+</ol>

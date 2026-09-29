@@ -1,0 +1,29 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  eyebrow?: string;
+  description?: string;
+  className?: string;
+}
+
+const { id, title, eyebrow, description, className } = Astro.props;
+---
+
+<section
+  id={id}
+  class:list={["page-section", className]}
+  aria-labelledby={`${id}-title`}
+>
+  <div class="shell section-grid">
+    <header class="section-heading">
+      {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+      <h2 id={`${id}-title`}>{title}</h2>
+      {description && <p class="section-description">{description}</p>}
+    </header>
+
+    <div class="section-body">
+      <slot />
+    </div>
+  </div>
+</section>

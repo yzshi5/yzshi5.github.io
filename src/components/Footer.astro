@@ -1,0 +1,32 @@
+---
+import { site } from "../data/site";
+
+const year = new Date().getFullYear();
+const footerLinks = site.links.filter((link) =>
+  ["Google Scholar", "GitHub", "Email"].includes(link.label),
+);
+---
+
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <p>© {year} {site.name}. Built with Astro.</p>
+    <nav aria-label="Footer navigation">
+      <ul class="footer-links">
+        {
+          footerLinks.map((link) => (
+            <li>
+              <a
+                class="text-link"
+                href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noreferrer" : undefined}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</footer>

@@ -1,0 +1,59 @@
+---
+import { site } from "../data/site";
+
+const navigation = [
+  { label: "Home", href: "#about" },
+  { label: "Publications", href: "#selected-publications" },
+  { label: "CV", href: site.cvPath },
+];
+---
+
+<header class="site-header" id="top">
+  <div class="shell header-inner">
+    <a class="site-name" href="#about" aria-label={`${site.name}, back to home`}>
+      {site.name}<span class="site-name-suffix">'s Homepage</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <ul class="nav-list">
+        {
+          navigation.map((item) => (
+            <li>
+              <a class="nav-link" href={item.href}>{item.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <details class="mobile-nav">
+      <summary aria-label="Navigation menu">
+        <span class="menu-icon" aria-hidden="true"></span>
+      </summary>
+
+      <nav class="mobile-menu" aria-label="Mobile navigation">
+        <ul class="mobile-nav-list">
+          {
+            navigation.map((item) => (
+              <li>
+                <a class="mobile-nav-link" href={item.href}>{item.label}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<script>
+  const mobileMenu = document.querySelector<HTMLDetailsElement>(".mobile-nav");
+
+  mobileMenu?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => mobileMenu.removeAttribute("open"));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") mobileMenu?.removeAttribute("open");
+  });
+</script>

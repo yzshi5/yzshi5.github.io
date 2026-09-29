@@ -1,0 +1,64 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import NewsList from "../components/NewsList.astro";
+import PublicationCard from "../components/PublicationCard.astro";
+import Section from "../components/Section.astro";
+import { publications, selectedPublications } from "../data/publications";
+import { site } from "../data/site";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <Header />
+
+  <main id="main-content">
+    <section id="about" class="home-section about-section" aria-labelledby="biography-title">
+      <div class="shell about-layout">
+        <Hero />
+
+        <div class="biography">
+          <h2 id="biography-title">Biography</h2>
+          <p>{site.about[0]}</p>
+          <p class="research-focus">{site.about[1]}</p>
+
+          <section class="news-panel" aria-labelledby="news-title">
+            <h3 id="news-title">News</h3>
+            <NewsList />
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <Section
+      id="selected-publications"
+      title="Selected Publications"
+      className="selected-publications-section"
+    >
+      <div class="selected-publication-list">
+        {
+          selectedPublications.map((publication) => (
+            <PublicationCard publication={publication} featured />
+          ))
+        }
+      </div>
+    </Section>
+
+    <Section
+      id="publications"
+      title="Publications"
+      className="publication-list-section"
+    >
+      <div class="publication-list">
+        {
+          publications.map((publication) => (
+            <PublicationCard publication={publication} />
+          ))
+        }
+      </div>
+    </Section>
+  </main>
+
+  <Footer />
+</Layout>
